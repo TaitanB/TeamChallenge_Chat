@@ -1,6 +1,8 @@
+
 .title {
-  color: var(--jedi-night);
+  color: var(--popup-primary-font-color);
   text-align: center;
+  font-family: Poppins;
   font-size: 16px;
   font-weight: 700;
   line-height: 125.1%;
@@ -8,8 +10,9 @@
 }
 
 .description {
-  color: var(--dark-gray);
+  color: var(--font-main-color);
   text-align: center;
+  font-family: Poppins;
   margin-top: 23px;
   font-size: 14px;
   font-weight: 500;

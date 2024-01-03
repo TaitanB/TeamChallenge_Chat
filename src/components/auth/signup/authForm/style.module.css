@@ -16,7 +16,7 @@
 
 .input {
   border: none;
-  border-bottom: 1px solid var(--dark-gray);
+  border-bottom: 1px solid var(--font-main-color);
   background-color: transparent;
   min-height: 40px;
   width: 100%;
@@ -24,7 +24,7 @@
 }
 
 .input::placeholder {
-  color: var(--dark-gray);
+  color: var(--font-main-color);
 }
 
 .warning {
@@ -36,7 +36,7 @@
 }
 
 .formText {
-  color: var(--jedi-night);
+  color: var(--popup-primary-font-color);
   text-align: center;
   font-size: 16px;
   font-style: normal;
@@ -47,7 +47,7 @@
 
 .formDesc {
   text-align: center;
-  color: var(--dark-gray);
+  color: var(--font-main-color);
   font-size: 14px;
 }
 

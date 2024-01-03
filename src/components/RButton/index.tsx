@@ -7,7 +7,7 @@ type JButtonProps = {
   type?: 'submit' | 'button';
   disabled?: boolean;
   className?: string;
-  color?: 'primary' | 'secondary' | 'text' | 'warning';
+  color?: 'primary' | 'secondary' | 'text';
 };
 
 export const RButton = ({

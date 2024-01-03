@@ -11,7 +11,6 @@
   border: none;
   outline: none;
   cursor: pointer;
-  font-family: 'Rubik', sans-serif;
 }
 
 .button.small {
@@ -27,7 +26,7 @@
 }
 
 .button.primary {
-  background: var(--rbutton-primary-bg);
+  background: var(--rbutton-bg-color);
   color: var(--rbutton-font-color);
 }
 
@@ -36,17 +35,6 @@
   border-radius: 20px;
   border: 2px solid var(--rbutton-secondary-color);
   color: var(--rbutton-secondary-color);
-  font-weight: 500;
-  text-transform: capitalize;
-}
-
-.button.warning {
-  background: none;
-  border-radius: 20px;
-  border: 2px solid var(--warning-color);
-  color: var(--warning-color);
-  font-weight: 500;
-  text-transform: capitalize;
 }
 
 .button.primary:hover:not([disabled]) {
@@ -55,10 +43,6 @@
 
 .button.secondary:hover:not([disabled]) {
   background: var(--rbutton-secondary-bg-hover);
-}
-
-.button.warning:hover:not([disabled]) {
-  background: var(--cosmic-red-light);
 }
 
 .button.text {

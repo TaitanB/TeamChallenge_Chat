@@ -1,3 +1,4 @@
+
 .searchInput {
   width: 260px;
   height: 34px;
@@ -8,7 +9,8 @@
 }
 
 .searchInput::placeholder {
-  color: #0e2030;
+  color: #0E2030;
+  font-family: Poppins;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
